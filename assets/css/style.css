@@ -593,63 +593,100 @@ a{
 .menu-navbar__link:hover{
   color: #d66926;
 }
-.container2 {
+.skills {
   border: 0.1em solid white;
   display: grid;
   background-color: rgb(241, 241, 241);
   grid-area: nv;
   grid-template-areas: "i1 i1 i2 i3" "i4 i5 i5 i6" "i7 i8 i9 i6" "i10 i10 i10 i10";
-  grid-gap: 0.1em;
+  gap: 10px;
+  padding: 10px;
+  grid-auto-rows: calc(33.3333vh - 13.3333333px);
 }
+.skill-item{
+  background-color: #2d3651;
+  position: relative;
 
-.container-item1 {
-  background-color: rgb(151, 133, 219);
+}
+ .skill-item__image{
+   height: 100%;
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 0;
+  right: 0; 
+  bottom: 0;  
+  left: 0;
+ }
+ .skill-item__link{
+   padding: 20px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   position: absolute;
+   top: 0;
+   right: 0;
+   bottom: 0;
+   left: 0;
+ }
+.skill-item:nth-of-type(1) {
   grid-area: i1;
 }
 
-.container-item2 {
-  background-color: rgb(28, 110, 79);
+.skill-item:nth-of-type(2) {
   grid-area: i2;
 }
 
-.container-item3 {
-  background-color: rgb(192, 137, 60);
+.skill-item:nth-of-type(3){
   grid-area: i3;
 }
 
-.container-item4 {
-  background-color: rgb(49, 33, 11);
+.skill-item:nth-of-type(4) {
   grid-area: i4;
 }
 
-.container-item5 {
-  background-color: rgb(156, 128, 87);
+.skill-item:nth-of-type(5) {
   grid-area: i5;
 }
 
-.container-item6 {
-  background-color: rgb(27, 151, 48);
+.skill-item:nth-of-type(6) {
   grid-area: i6;
 }
 
-.container-item7 {
-  background-color: rgb(27, 102, 43);
+.skill-item:nth-of-type(7) {
   grid-area: i7;
 }
 
-.container-item8 {
-  background-color: rgb(27, 85, 151);
+.skill-item:nth-of-type(8) {
   grid-area: i8;
 }
 
-.container-item9 {
-  background-color: rgb(122, 27, 151);
+.skill-item:nth-of-type(9) {
   grid-area: i9;
 }
 
-.container-item10 {
+.skills-actions {
   background-color: rgb(255, 255, 255);
-  grid-area: i10;
+
+}
+.skill-item__overlay{
+
+  position: absolute;
+  top: 0;
+  right: 0; 
+  bottom: 0;  
+  left: 0;
+  z-index: 1;
+}
+.skill-item__title{
+  position: absolute;
+  z-index: 2;
+  margin: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
 }
 
 .container3 {
