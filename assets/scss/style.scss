@@ -20,3 +20,97 @@
 @import "sections/section-posts";
 
 @import "footer";
+
+  .container3 {
+    background-color: rgb(46, 101, 126);
+    grid-area: lf;
+    display: grid;
+    gap: 40px;
+    grid-template-columns: 1fr 271px;
+  }
+  
+  .container3-item1 {
+    background-color: rgb(102, 126, 46);
+  }
+  
+  .container3-item2 {
+    background-color: rgb(46, 101, 126);
+  }
+  
+  .container4 {
+    background-color: rgb(45, 54, 81);
+    grid-area: mn;
+    display: grid;
+    grid-template-areas: "i21 i22 i23";
+    padding: 2em;
+    grid-gap: 3em;
+  }
+  
+  .container4-item1 {
+    background-color: rgb(68, 113, 134);
+    grid-area: i21;
+  }
+  
+  .container4-item2 {
+    background-color: rgb(68, 113, 134);
+    grid-area: i22;
+  }
+  
+  .container4-item3 {
+    background-color: rgb(68, 113, 134);
+    grid-area: i23;
+  }
+  
+  .container5 {
+    display: grid;
+    background-color: rgb(255, 255, 255);
+    grid-area: rg;
+    grid-template-areas: "i51 i51 i51 i51" "i52 i52 i53 i54" "i55 i56 i57 i57" "i58 i58 i58 i58";
+    margin: 0.2em;
+    grid-gap: 0.2em;
+  }
+  
+  .container5-item1 {
+    grid-area: i51;
+    background-color: rgb(255, 255, 255);
+  }
+  
+  .container5-item2 {
+    grid-area: i52;
+    background-color: rgb(207, 124, 46);
+  }
+  
+  .container5-item3 {
+    grid-area: i53;
+    background-color: rgb(102, 102, 3);
+  }
+  
+  .container5-item4 {
+    grid-area: i54;
+    background-color: rgb(12, 53, 128);
+  }
+  
+  .container5-item5 {
+    grid-area: i55;
+    background-color: rgb(29, 95, 112);
+  }
+  
+  .container5-item6 {
+    grid-area: i56;
+    background-color: rgb(61, 8, 57);
+  }
+  
+  .container5-item7 {
+    grid-area: i57;
+    background-color: rgb(124, 57, 57);
+  }
+  
+  .container5-item8 {
+    grid-area: i58;
+    background-color: rgb(255, 255, 255);
+  }
+  
+  @media (max-height:690px){
+    .skills-contaner{grid-auto-rows: calc(230px - 13.333px);
+    }
+  } 
