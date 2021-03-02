@@ -633,10 +633,6 @@ a {
   color: #d66926;
 }
 
-.menu-navbar__link:focus {
-  color: #d66926;
-}
-
 .contaner1-caption {
   position: relative;
 }
@@ -729,10 +725,6 @@ a {
 }
 
 .skill-item:hover .skill-item__link {
-  color: #d66926;
-}
-
-.skill-item:focus .skill-item__link {
   color: #d66926;
 }
 

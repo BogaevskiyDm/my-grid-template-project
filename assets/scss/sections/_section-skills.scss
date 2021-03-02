@@ -52,17 +52,16 @@
     font-size: 1.25rem;
     letter-spacing: 0.1em;
   }
-  &:hover .skill-item__link {
-    color: #d66926;
-  }
-  &:focus .skill-item__link {
-    color: #d66926;
-  }
-  &:hover .skill-item__image {
-    transform: scale(1.1);
-  }
-  &:hover .skill-item__overlay {
-    opacity: 0.95 !important;
+  &:hover{
+    .skill-item__link {
+      color: #d66926;
+    }
+    .skill-item__image {
+      transform: scale(1.1);
+    }
+    .skill-item__overlay {
+      opacity: 0.95 !important;
+    }
   }
   &__link {
     padding: 20px;
