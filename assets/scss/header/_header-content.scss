@@ -1,0 +1,21 @@
+.contaner1-caption {
+  position: relative;
+}
+.contaner1-caption__content {
+  padding-left: 20px;
+  padding-right: 20px;
+  max-width: 1340px;
+  margin: auto;
+}
+
+.content__title {
+  margin: 0 0 53px 0;
+}
+
+.content__actions {
+  display: flex;
+  justify-content: center;
+  .btn:first-of-type {
+    margin-right: 20px;
+  }
+}
