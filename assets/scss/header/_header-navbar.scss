@@ -14,7 +14,7 @@
       -ms-flex-pack: end;
       justify-content: flex-end;
       width: 100%;
-      margin: 0 -10px 0 0;
+      margin: 0 (-$gap / 2) 0 0;
       padding: 0;
       list-style: none;
       grid-template-columns: repeat(auto-fit, minmax(50px, -webkit-max-content));
@@ -22,16 +22,16 @@
       ;
     }
     &__item {
-      margin-left: 20px;
+      margin-left: $gap;
     }
     &__link {
       display: block;
-      padding: 20px 10px;
+      padding: $gap 10px;
       font-size: 1.125rem;
       letter-spacing: 0.09em;
       transition: color 0.5s;
     }
     &__link:hover {
-      color: #d66926;
+      color: $color-accent;
   }
 }

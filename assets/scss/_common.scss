@@ -4,7 +4,7 @@
   
   h1 {
     margin: 0.67em 0;
-    font-family: "Roboto Slab", serif;
+    font-family: $font-header;
     font-weight: 300;
     text-align: center;
     letter-spacing: 0.08em;
@@ -12,14 +12,14 @@
     line-height: 1.2em;
   }
   html {
-    color: #637588;
-    font-family: "Roboto", sans-serif;
-    font-size: 16px;
+    color: $color-gray;
+    font-family: $font-main;
+    font-size: $font-size;
   }
   
   a {
     text-decoration: none;
-    color: #ffffff;
+    color: $color-light;
   }
   
   .container {
@@ -35,19 +35,19 @@
     display: block;
     font-size: 1.125rem;
     text-align: center;
-    padding: 18px 20px;
+    padding: 18px $gap;
     letter-spacing: 0.1em;
     transition: background-color 0.5s;
     &__light {
-      border: 2px solid #ffffff;
+      border: 2px solid $color-light;
       background-color: rgba(255, 255, 255, 0.1);
       min-width: 250px;
     }
     &__light:hover {
-      background-color: #d66926;
+      background-color: $color-accent;
     }
     &__light:focus {
-      background-color: #d66926;
+      background-color: $color-accent;
     }
   }
   
