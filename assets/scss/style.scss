@@ -22,7 +22,7 @@
 
 @import "footer";
 
-  .container3 {
+  .information {
     background-color: rgb(46, 101, 126);
     grid-area: lf;
     display: grid;
@@ -30,13 +30,7 @@
     grid-template-columns: 1fr 271px;
   }
   
-  .container3-item1 {
-    background-color: rgb(102, 126, 46);
-  }
-  
-  .container3-item2 {
-    background-color: rgb(46, 101, 126);
-  }
+
   
   .container4 {
     background-color: rgb(45, 54, 81);

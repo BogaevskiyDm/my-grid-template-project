@@ -42,16 +42,4 @@
   justify-content: center;
 }
 
-.btn-primary {
-  border: 2px solid $color-primary;
-  background-color: rgba($color-primary, 0.8);
-  @include sm-min {
-  min-width: 350px;
-  }
-  @include sm {
-    width: 100%;
-  }
-  &:hover {
-    background-color: $color-accent;
-  }
-}
+
