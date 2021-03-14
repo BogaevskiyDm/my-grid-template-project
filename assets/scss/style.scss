@@ -21,40 +21,13 @@
 @import "sections/section-posts";
 
 @import "footer";
-
-  .information {
-    background-color: rgb(46, 101, 126);
-    grid-area: lf;
-    display: grid;
-    gap: 40px;
-    grid-template-columns: 1fr 271px;
-  }
+@import "information";
+@import "form";
+  
   
 
   
-  .container4 {
-    background-color: rgb(45, 54, 81);
-    grid-area: mn;
-    display: grid;
-    grid-template-areas: "i21 i22 i23";
-    padding: 2em;
-    grid-gap: 3em;
-  }
   
-  .container4-item1 {
-    background-color: rgb(68, 113, 134);
-    grid-area: i21;
-  }
-  
-  .container4-item2 {
-    background-color: rgb(68, 113, 134);
-    grid-area: i22;
-  }
-  
-  .container4-item3 {
-    background-color: rgb(68, 113, 134);
-    grid-area: i23;
-  }
   
   .container5 {
     display: grid;
