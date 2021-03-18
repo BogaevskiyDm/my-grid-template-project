@@ -87,13 +87,13 @@
                    right: -50px;
                 }
                 @include lg-md {
-                    right: -20px;
+                    right: -$gap;
                 }
                 @include md-sm {
-                    right: -10px;
+                    right: -($gap / 2);
                 }
                 @include sm {
-                    right: -10px;
+                    right: -($gap / 2);
                 }
         
             }

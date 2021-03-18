@@ -32,6 +32,11 @@ h2 {
   color: $color-primary;
   line-height: 1.2em;
 }
+h3 {
+  letter-spacing: 0.05em;
+  color: $color-gray;
+  font-size: 1.125rem;
+}
 html {
   color: $color-gray;
   font-family: $font-main;
@@ -47,7 +52,7 @@ a {
   min-height: 100vh;
   display: grid;
   grid-template-areas: "hd hd hd" "nv nv nv" "lf lf lf" "mn mn mn" "rg rg rg" "ft ft ft";
-  grid-template-rows: 0.1fr 0.9fr 0.1fr 0.01fr 1fr 1fr;
+  /*grid-template-rows: 0.1fr 0.9fr 0.1fr 0.01fr 0.1fr 0.1fr;*/
   grid-template-columns: 1fr 1fr 1fr;
   background-size: cover;
 }
@@ -81,8 +86,8 @@ a {
     @include md {
       min-width: 170px;
       height: 40px;
-      padding-top: 10px;
-      padding-bottom: 10px;
+      padding-top: $gap / 2;
+      padding-bottom: $gap / 2;
       letter-spacing: 0.05em;
       font-size: 1rem;
     }
