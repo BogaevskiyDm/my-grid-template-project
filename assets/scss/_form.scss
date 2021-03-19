@@ -3,7 +3,7 @@
     background-color: $color-primary;
     grid-area: mn;
     @include md-sm {
-        .record-box-block__item:nth-of-type(1) {
+        .record-box__item:nth-of-type(1) {
             grid-column: 1 / span 2;
         }
     }
