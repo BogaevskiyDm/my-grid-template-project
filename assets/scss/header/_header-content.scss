@@ -1,7 +1,7 @@
-.contaner1-caption {
+.header-caption {
   position: relative;
 }
-.contaner1-caption__content {
+.header-caption__content {
   padding-left: $gap;
   padding-right: $gap;
   max-width: $ul;
@@ -23,15 +23,17 @@
 .content__actions {
   display: flex;
   justify-content: center;
-  @include sm{
+  @include sm {
     align-items: center;
     flex-direction: column;
-    .btn:first-of-type {
+    .btn:last-of-type {
       margin-right: 0;
-      margin-bottom: $gap;
+      margin-top: $gap;
     }
   }
-  .btn:first-of-type {
-    margin-right: $gap;
+  @include sm-min {
+    .btn:not(:last-of-type) {
+      margin-right: $gap;
+    }
   }
 }

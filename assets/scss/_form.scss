@@ -1,9 +1,9 @@
-.loginform {
+.record {
     padding: 30px 0;
     background-color: $color-primary;
     grid-area: mn;
     @include md-sm {
-        .loginform-box-block__item:nth-of-type(1) {
+        .record-box-block__item:nth-of-type(1) {
             grid-column: 1 / span 2;
         }
     }
@@ -15,7 +15,7 @@
         background-color: rgba(255, 255, 255, 0.1);
         min-width: 0px;
         &:hover,
-        .loginform .btn-primary:focus {
+        .record .btn-primary:focus {
             cursor: pointer;
             border-color: $color-light;
             background-color: $color-accent;
@@ -52,12 +52,16 @@
     border-bottom-color: rgba(255, 255, 255, 0.25);
     background-color: rgba(255, 255, 255, 0.05);
     font-size: 1.125rem;
+    &::placeholder {
+        color: $color-gray;
+    }
     &:hover,
-    .form__input:focus {
+    &:focus {
         border-color: rgba(255, 255, 255, 0.15);
         border-bottom-color: $color-light;
         background-color: rgba(255, 255, 255, 0.15);
+        &::placeholder {
+            color: #8c9bab;
+        }
     }
 }
-
-
